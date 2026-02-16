@@ -1,0 +1,29 @@
+# Nmap 7.94SVN scan initiated Mon Feb 16 13:05:44 2026 as: nmap -sS -oN scan_results.txt 127.0.0.1/8
+Nmap scan report for localhost (127.0.0.0)
+Host is up (0.0000020s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+80/tcp   open  http
+85/tcp   open  mit-ml-dev
+8083/tcp open  us-srv
+
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.0000020s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+80/tcp   open  http
+85/tcp   open  mit-ml-dev
+631/tcp  open  ipp
+3306/tcp open  mysql
+8083/tcp open  us-srv
+
+Nmap scan report for johnson-joby-Nitro-NL16-71G (127.0.0.2)
+Host is up (0.0000020s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+80/tcp   open  http
+85/tcp   open  mit-ml-dev
+8083/tcp open  us-srv
